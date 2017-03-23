@@ -24,7 +24,7 @@ export default function Form(props) {
             name="age" 
             placeholder='age' />
             <br />
-            <button>Save</button>
+            <button onClick={props.save}>Save</button>
         </div>
     )
 }
